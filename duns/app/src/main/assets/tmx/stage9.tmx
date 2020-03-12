@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="40" height="10" tilewidth="100" tileheight="100" nextobjectid="49">
+ <tileset firstgid="1" name="stage4" tilewidth="100" tileheight="100" tilecount="400" columns="40">
+  <image source="gfx/stage4.png" width="4000" height="1000"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="40" height="10">
+  <data encoding="base64" compression="zlib">
+   eJwNwwOUEAYAANDLti5c9uUuX7Ztuy67u2wbW27L3DK22rJtY4tb3OJQ/73/IwUEBEQ2ilGNZnRjGNNYxjaOcY1nfBOY0EQmNolJTWZyUxhoSlOZ2jQGmdZ0pjeDGc1kZrOY1WxmN4c5DTaXuc1jXvOZ3wIWNMRCFraIRS1mcUsYaklLWdoylrWc5a1gRStZ2SpWtZrVrWFNa1nbOta1nvVtYEMb2dgmNrWZzW1hS1vZ2ja2tZ3t7WBHO9nZLnY1zG52t4c97WVv+9jXfvZ3gAMd5GDDjXCIQx3mcEc40lGOdoxjHed4JzjRSU52ilOd5nRnONNZznaOc53nfL/xWxe40EUudolLXeZyv/N7V7jSVa52jWtd53o3uNFNbvYHf3SLW93mdne4013udo97/cmf3ed+f/FXD3jQQx72iEc95nFPeNJTnvaMZz3neS940Ute9opXveZ1b3jTW972jne9530f+NDf/N1HPvaJT33mc//wT1/40le+9o1v/cu/fed7P/jRT372H//1P//3iwGRMLJRjGo0oxvDmMYytnGMazzjm8CEJjKxSUxqMpObwkBTmsrUpjHItKYzvRnMaCYzm8WsZjO7OcxpsLnMbR7zms/8FrCgIRaysEUsajGLW8JQS1rK0paxrOUsbwUrWsnKVrGq1axuDWtay9rWsa71rG8DG9rIxjaxqc1sbgtb2srWtrGt7WxvBzvayc52sathdrO7PexpL3vbx772s78DHOggBxtuhEMc6jCHO8KRjnK0YxzrOMc7wYlOcrJTnOo0pzvDmX4FUpio2g==
+  </data>
+ </layer>
+ <objectgroup name="trap" width="40" height="10">
+  <object id="3" x="227" y="996" width="3500" height="100"/>
+ </objectgroup>
+ <objectgroup name="player" width="40" height="10">
+  <object id="4" x="60" y="666" width="100" height="100"/>
+ </objectgroup>
+ <objectgroup name="wall" width="40" height="10">
+  <object id="6" x="2" y="846" width="246" height="154"/>
+  <object id="7" x="396" y="874" width="98" height="94"/>
+  <object id="8" x="606" y="210" width="398" height="146"/>
+  <object id="9" x="658" y="850" width="2578" height="148"/>
+  <object id="10" x="1288" y="700" width="782" height="162"/>
+  <object id="11" x="1096" y="242" width="92" height="90"/>
+  <object id="12" x="1278" y="208" width="792" height="150"/>
+  <object id="13" x="2168" y="312" width="90" height="94"/>
+  <object id="14" x="2336" y="428" width="392" height="150"/>
+  <object id="15" x="3372" y="876" width="94" height="96"/>
+  <object id="16" x="3630" y="850" width="372" height="152"/>
+  <object id="17" x="3986" y="660" width="96" height="234"/>
+  <object id="18" x="-94" y="624" width="98" height="222"/>
+  <object id="28" x="2852" y="530" width="96" height="92"/>
+  <object id="29" x="3092" y="626" width="100" height="100"/>
+ </objectgroup>
+ <objectgroup name="enemies" width="40" height="10">
+  <object id="23" x="900" y="800"/>
+  <object id="25" x="1800" y="600"/>
+  <object id="26" x="2400" y="800"/>
+  <object id="27" x="2900" y="800"/>
+  <object id="30" x="1800" y="100"/>
+  <object id="31" x="2600" y="300"/>
+  <object id="32" x="3800" y="800"/>
+ </objectgroup>
+ <objectgroup name="money" width="40" height="10">
+  <object id="33" x="800" y="100"/>
+ </objectgroup>
+ <objectgroup name="enemiwall" width="40" height="10">
+  <object id="35" x="600" y="700" width="100" height="200"/>
+  <object id="37" x="1200" y="500" width="100" height="200"/>
+  <object id="40" x="2066" y="548" width="75" height="148"/>
+  <object id="41" x="3224" y="654" width="63" height="190"/>
+  <object id="42" x="1251" y="63" width="51" height="169"/>
+  <object id="45" x="2048" y="57" width="63" height="160"/>
+  <object id="46" x="2330" y="269" width="30" height="181"/>
+  <object id="47" x="2700" y="284" width="63" height="169"/>
+  <object id="48" x="3618" y="666" width="42" height="181"/>
+ </objectgroup>
+</map>

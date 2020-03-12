@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dgstory">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.dgstory.LogoActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="fullSensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".TitleActivity"/>
+        <activity android:name=".LobbyActivity"/>
+        <activity android:name=".LodingActivity"/>
+        <activity android:name=".StageActivity" />
+        <activity android:name=".Eventgoin" />
+        <activity android:name=".gameOverActivity" />
+        <activity android:name=".clearActivity"/>
+
+        <activity android:name=".Stage_1_Activity" />
+        <activity android:name=".Stage_2_Activity" />
+        <activity android:name=".Stage_3_Activity" />
+        <activity android:name=".Stage_4_Activity" />
+        <activity android:name=".Stage_5_Activity" />
+        <activity android:name=".Stage_6_Activity" />
+        <activity android:name=".Stage_7_Activity" />
+        <activity android:name=".Stage_8_Activity" />
+        <activity android:name=".Stage_9_Activity" />
+        <activity android:name=".Stage_10_Activity" />
+        <activity android:name=".Stage_11_Activity" />
+        <activity android:name=".Stage_12_Activity" />
+        <activity android:name=".Stage_13_Activity" />
+        <activity android:name=".Stage_14_Activity" />
+        <activity android:name=".Stage_15_Activity" />
+    </application>
+
+</manifest>

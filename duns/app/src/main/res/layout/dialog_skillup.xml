@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/skin_dialog1"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="기술을 기억해냈다.!!"
+            android:textColor="#FFFFFF"
+            android:textSize="10pt"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+            <ImageView
+                android:id="@+id/skillup_skill1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/icon_skill1"
+                android:layout_marginLeft="30dp"/>
+            <ImageView
+                android:id="@+id/skillup_skill2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/icon_skill2"
+                android:layout_marginLeft="70dp"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="스킬 등록시 기존스킬이 변경됩니다."
+            android:textColor="#FFFFFF"
+            android:textSize="8pt"
+            android:layout_marginTop="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/skillup_cancle"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:src="@drawable/btn_cancel"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="20dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

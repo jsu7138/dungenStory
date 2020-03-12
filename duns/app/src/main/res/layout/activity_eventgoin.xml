@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dgstory.dungeonstory.Eventgoin"
+    android:orientation="vertical"
+    android:background="@drawable/event_stage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/eventgoin_text"
+            android:text="test 좋은 일이 일어날 것 같다.(색깔)"
+            android:textColor="#FFFFFF"
+            android:textSize="10pt"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/eventgoin_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="test2 어둠에 몸을 숨겨 내려가다 돈을 줍게되니 피곤함이 덜하다.\n test \ntest"
+            android:textSize="6pt"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+
+</LinearLayout>

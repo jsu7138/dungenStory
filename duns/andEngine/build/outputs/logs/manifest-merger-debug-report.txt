@@ -1,0 +1,45 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\and\duns\andEngine\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from E:\and\duns\andEngine\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from E:\and\duns\andEngine\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from E:\and\duns\andEngine\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from E:\and\duns\andEngine\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from E:\and\duns\andEngine\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from E:\and\duns\andEngine\src\main\AndroidManifest.xml:2:1-12:12
+	package
+		ADDED from E:\and\duns\andEngine\src\main\AndroidManifest.xml:4:2-25
+		INJECTED from E:\and\duns\andEngine\src\main\AndroidManifest.xml
+		INJECTED from E:\and\duns\andEngine\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\and\duns\andEngine\src\main\AndroidManifest.xml:6:2-27
+		INJECTED from E:\and\duns\andEngine\src\main\AndroidManifest.xml
+		INJECTED from E:\and\duns\andEngine\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\and\duns\andEngine\src\main\AndroidManifest.xml:3:2-48
+	xmlns:android
+		ADDED from E:\and\duns\andEngine\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\and\duns\andEngine\src\main\AndroidManifest.xml:5:2-25
+		INJECTED from E:\and\duns\andEngine\src\main\AndroidManifest.xml
+		INJECTED from E:\and\duns\andEngine\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from E:\and\duns\andEngine\src\main\AndroidManifest.xml:8:2-42
+INJECTED from E:\and\duns\andEngine\src\main\AndroidManifest.xml:8:2-42
+INJECTED from E:\and\duns\andEngine\src\main\AndroidManifest.xml:8:2-42
+INJECTED from E:\and\duns\andEngine\src\main\AndroidManifest.xml:8:2-42
+INJECTED from E:\and\duns\andEngine\src\main\AndroidManifest.xml:8:2-42
+	android:targetSdkVersion
+		ADDED from E:\and\duns\andEngine\src\main\AndroidManifest.xml:8:12-40
+		INJECTED from E:\and\duns\andEngine\src\main\AndroidManifest.xml
+		INJECTED from E:\and\duns\andEngine\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\and\duns\andEngine\src\main\AndroidManifest.xml
+		ADDED from E:\and\duns\andEngine\src\main\AndroidManifest.xml:8:2-42
+		INJECTED from E:\and\duns\andEngine\src\main\AndroidManifest.xml
+application
+ADDED from E:\and\duns\andEngine\src\main\AndroidManifest.xml:10:2-11:39
+	android:debuggable
+		ADDED from E:\and\duns\andEngine\src\main\AndroidManifest.xml:10:15-40
+	tools:ignore
+		ADDED from E:\and\duns\andEngine\src\main\AndroidManifest.xml:11:3-36

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/skin_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:id="@+id/btn_option_datadelete"
+        android:src="@drawable/btn_delet_data"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_margin="10dp"
+        android:id="@+id/btn_option_sound"
+        android:src="@drawable/btn_sound"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_margin="10dp"
+        android:id="@+id/btn_option_help"
+        android:src="@drawable/btn_help"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_margin="10dp"
+        android:id="@+id/btn_option_end"
+        android:src="@drawable/btn_end"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_margin="10dp"
+        android:id="@+id/btn_option_cancel"
+        android:src="@drawable/btn_cancel"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

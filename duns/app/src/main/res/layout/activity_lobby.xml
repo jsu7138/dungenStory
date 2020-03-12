@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_lobby"
+    tools:context="com.dgstory.dungeonstory.LobbyActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/btn_info"
+            android:src="@drawable/icon_info"
+            android:layout_marginLeft="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <ImageView
+            android:id="@+id/btn_inven"
+            android:src="@drawable/icon_inven"
+            android:layout_marginLeft="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <ImageView
+            android:id="@+id/btn_save"
+            android:src="@drawable/icon_save"
+            android:layout_marginLeft="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <ImageView
+            android:id="@+id/btn_option"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/icon_setter"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/btn_explo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/icon_explo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="bottom|center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/icon_money"
+                            android:layout_marginTop="20dp"/>
+
+                        <TextView
+                            android:id="@+id/lobby_money"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:text="999999999"
+                            android:textSize="8pt"
+                            android:textColor="#FFFFFF"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="25dp"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/icon_sp"
+                            android:layout_marginTop="20dp"/>
+                        <TextView
+                            android:id="@+id/lobby_sp"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="11111111"
+                            android:textColor="#ffffff"
+                            android:textSize="8pt"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="25dp"/>
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom|right"
+                android:layout_marginRight="20dp">
+                <ImageView
+                    android:id="@+id/btn_sleep"
+                    android:src="@drawable/icon_sleep"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="bottom"
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+                <ImageView
+                    android:id="@+id/btn_dig"
+                    android:src="@drawable/icon_dig"
+                    android:layout_gravity="right"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <ImageView
+                    android:id="@+id/btn_smelting"
+                    android:src="@drawable/icon_smelting"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

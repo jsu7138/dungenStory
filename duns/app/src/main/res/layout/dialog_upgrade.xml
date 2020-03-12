@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#dcb400"
+    android:padding="1dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@drawable/skin_dialog"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/btn_upgrade_cancel"
+                android:src="@drawable/btn_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center|right"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_upgrade_money"
+                android:text="9,999,999,999"
+                android:gravity="center"
+                android:textColor="#fff200"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:src="@drawable/icon_money"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:scrollbars="none"
+        android:overScrollMode="never"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <LinearLayout
+                    android:background="@drawable/skin_dialog"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal"
+                        android:gravity="center|left"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/icon_hp"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp" />
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:text="체    력 LV."
+                            android:textColor="#ffffff"
+                            android:textSize="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/tv_upgrade_hp"
+                            android:text="99"
+                            android:textColor="#ffffff"
+                            android:textSize="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center|right"
+                        android:layout_marginRight="10dp"
+                        android:orientation="horizontal"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+                        <Button
+                            android:id="@+id/button_upgrade_hp"
+                            android:gravity="center|right"
+                            android:paddingRight="75dp"
+                            android:text="9,999,999"
+                            android:textColor="#ffdd00"
+                            android:textSize="18dp"
+                            android:background="@drawable/btn_add"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:background="@drawable/skin_dialog"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal"
+                        android:gravity="center|left"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/icon_mp"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp" />
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:text="마    력 LV."
+                            android:textColor="#ffffff"
+                            android:textSize="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/tv_upgrade_mp"
+                            android:text="99"
+                            android:textColor="#ffffff"
+                            android:textSize="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center|right"
+                        android:layout_marginRight="10dp"
+                        android:orientation="horizontal"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+                        <Button
+                            android:id="@+id/button_upgrade_mp"
+                            android:gravity="center|right"
+                            android:paddingRight="75dp"
+                            android:text="9,999,999"
+                            android:textColor="#ffdd00"
+                            android:textSize="18dp"
+                            android:background="@drawable/btn_add"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                android:background="@drawable/skin_dialog"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                android:gravity="center|left"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/icon_weapon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:text="공격력 LV."
+                    android:textColor="#ffffff"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tv_upgrade_atk"
+                    android:text="99"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+                <LinearLayout
+                    android:gravity="center|right"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:id="@+id/button_upgrade_atk"
+                        android:gravity="center|right"
+                        android:paddingRight="75dp"
+                        android:text="9,999,999"
+                        android:textColor="#ffdd00"
+                        android:textSize="18dp"
+                        android:background="@drawable/btn_add"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp" />
+                    </LinearLayout>
+            </LinearLayout>
+                <LinearLayout
+                    android:background="@drawable/skin_dialog"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal"
+                        android:gravity="center|left"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/icon_armor"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp" />
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:text="방어력 LV."
+                            android:textColor="#ffffff"
+                            android:textSize="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/tv_upgrade_def"
+                            android:text="99"
+                            android:textColor="#ffffff"
+                            android:textSize="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center|right"
+                        android:layout_marginRight="10dp"
+                        android:orientation="horizontal"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+                        <Button
+                            android:id="@+id/button_upgrade_def"
+                            android:gravity="center|right"
+                            android:paddingRight="75dp"
+                            android:text="9,999,999"
+                            android:textColor="#ffdd00"
+                            android:textSize="18dp"
+                            android:background="@drawable/btn_add"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:background="@drawable/skin_dialog"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal"
+                        android:gravity="center|left"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/icon_shoes"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp" />
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:text="속    도 LV."
+                            android:textColor="#ffffff"
+                            android:textSize="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/tv_upgrade_speed"
+                            android:text="99"
+                            android:textColor="#ffffff"
+                            android:textSize="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center|right"
+                        android:layout_marginRight="10dp"
+                        android:orientation="horizontal"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+                        <Button
+                            android:id="@+id/button_upgrade_speed"
+                            android:gravity="center|right"
+                            android:paddingRight="75dp"
+                            android:text="9,999,999"
+                            android:textColor="#ffdd00"
+                            android:textSize="18dp"
+                            android:background="@drawable/btn_add"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp" />
+                    </LinearLayout>
+                </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
